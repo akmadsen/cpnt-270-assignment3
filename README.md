@@ -14,7 +14,7 @@ our choice.
 
 These are some websites to provide style and format guidance. 
 
-[Covert Farms](https://covertfarms.ca/#organicfarmandwinery "Covert Farms")
-[Duarte Orchards](http://duarteorchards.com/ "Duarte Orchards") 
-[Souto Farms](https://soutofarms.com/ "Souto Farms")
-[B.C. Tree Fruits](http://www.bctree.com/ "B.C. Tree Fruits")
+* [Covert Farms](https://covertfarms.ca/#organicfarmandwinery "Covert Farms")
+* [Duarte Orchards](http://duarteorchards.com/ "Duarte Orchards") 
+* [Souto Farms](https://soutofarms.com/ "Souto Farms")
+* [B.C. Tree Fruits](http://www.bctree.com/ "B.C. Tree Fruits")
