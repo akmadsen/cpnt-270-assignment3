@@ -1,0 +1,20 @@
+/* GENERAL STYLES */
+
+/* HEADER SECTION */
+.mobile-nav { 
+    display: none; 
+}
+
+header { 
+    background: red; 
+}
+
+/* HERO SECTION */
+.hero { 
+    background: green; 
+}
+
+/* FOOTER SECTION */
+footer { 
+    background: blue; 
+}
