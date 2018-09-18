@@ -22,6 +22,18 @@ header {
     height: 80px; 
 }
 
+header .container { 
+    background: darkred; 
+}
+
+header .logo i { 
+    margin-right: 10px; 
+}
+
+header .logo span { 
+    font-family: 'Alfa Slab One', serif; 
+}
+
 /* HERO SECTION */
 .hero { 
     background: green; 
