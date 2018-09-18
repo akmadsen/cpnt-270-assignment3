@@ -7,14 +7,17 @@
 
 header { 
     background: red; 
+    height: 80px; 
 }
 
 /* HERO SECTION */
 .hero { 
     background: green; 
+    height: 600px; 
 }
 
 /* FOOTER SECTION */
 footer { 
     background: blue; 
+    height: 400px;
 }
