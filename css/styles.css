@@ -1,5 +1,17 @@
 /* GENERAL STYLES */
 
+/*
+    COLOUR PALETTE 
+    --------------
+
+    (Analogous Palette on color.adobe.com) 
+    Left        : 9C6524 (Burnt Yellow) 
+    Mid-Left    : A65926 (Burnter Yellow) 
+    Middle      : 8F4228 (Earthy Brown) <-- MAIN 
+    Mid-Right   : A63326 (Fall Orange) 
+    Right       : 9C2434 (Fall Red) 
+*/ 
+
 /* HEADER SECTION */
 .mobile-nav { 
     display: none; 
