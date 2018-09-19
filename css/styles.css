@@ -54,20 +54,30 @@ header ul {
     display: flex;
 }
 
-header ul li { 
+header li { 
     list-style: none; 
 }
 
-header ul li a { 
+header a { 
+    background-color: #8F4228;
+    color: white;  
+
+    font-family: 'Noto Sans', sans-serif; 
+    font-weight: bold; 
+    font-size: 20px; 
+
     display: flex; 
     align-items: center; 
-    background-color: rgb(116, 53, 32); 
     padding: 0 20px; 
     height: 80px;
 }
 
 header ul li a:hover {
-    background-color: darkorange;
+    background-color: rgb(185, 85, 51);
+    color: white; 
+    
+    text-decoration: none; 
+
 }
 
 .mobile-nav { 
