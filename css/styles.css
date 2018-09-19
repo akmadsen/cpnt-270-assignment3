@@ -60,6 +60,16 @@ header ul li a:hover {
     background-color: darkorange;
 }
 
+@media (max-width: 600px) { 
+    header ul {
+        display: none; 
+    }
+
+    header .mobile-nav { 
+        display: block; 
+    }
+}
+
 /* HERO SECTION */
 .hero { 
     background: green; 
