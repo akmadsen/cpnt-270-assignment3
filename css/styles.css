@@ -26,12 +26,38 @@ header .container {
     background: darkred; 
 }
 
+header .logo { 
+    margin-right: auto; 
+}
+
 header .logo i { 
     margin-right: 10px; 
 }
 
 header .logo span { 
+    font-size: 24px; 
     font-family: 'Alfa Slab One', serif; 
+}
+
+header ul { 
+    margin-bottom: 0; 
+    display: flex;
+}
+
+header ul li { 
+    list-style: none; 
+}
+
+header ul li a { 
+    display: flex; 
+    align-items: center; 
+    background-color: yellow; 
+    padding: 0 20px; 
+    height: 80px;
+}
+
+header ul li a:hover {
+    background-color: darkorange;
 }
 
 /* HERO SECTION */
@@ -40,8 +66,16 @@ header .logo span {
     height: 600px; 
 }
 
+.hero .container { 
+    background-color: darkgreen; 
+}
+
 /* FOOTER SECTION */
 footer { 
     background: blue; 
     height: 400px;
+}
+
+footer .container { 
+    background: darkblue; 
 }
