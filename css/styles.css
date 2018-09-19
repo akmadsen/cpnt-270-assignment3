@@ -1,3 +1,4 @@
+/* #region GENERAL */
 /* GENERAL STYLES */
 
 /*
@@ -12,11 +13,21 @@
     Right       : 9C2434 (Fall Red) 
 */ 
 
+.background-image { 
+    background: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+        url('../assets/christian-holzinger-996721-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* #endregion */
+
 /* #region HEADER */
 /* HEADER SECTION */
 
 header { 
-    background: #A65926; 
+    background: transparent; 
     height: 80px; 
 }
 
@@ -82,12 +93,7 @@ header ul li a:hover {
 /* #region HERO */
 /* HERO SECTION */
 .hero { 
-    background: 
-        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-        url('../assets/christian-holzinger-996721-unsplash.jpg'); 
     height: 600px; 
-    background-size: cover; 
-    background-position: center; 
 }
 
 .hero .container { 
