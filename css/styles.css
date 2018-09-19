@@ -13,9 +13,6 @@
 */ 
 
 /* HEADER SECTION */
-.mobile-nav { 
-    display: none; 
-}
 
 header { 
     background: red; 
@@ -60,7 +57,15 @@ header ul li a:hover {
     background-color: darkorange;
 }
 
-@media (max-width: 600px) { 
+.mobile-nav { 
+    display: none; 
+    background-color: yellowgreen; 
+    border: none; 
+    height: 80px; 
+    width:  80px; 
+}
+
+@media (max-width: 770px) { 
     header ul {
         display: none; 
     }
@@ -97,10 +102,28 @@ header ul li a:hover {
     align-items: center; 
 }
 
+.hero-content h1 { 
+    text-align: center; 
+}
+
+.hero-content p { 
+    text-align: center;
+}
+
 .hero-content hr { 
     border-color: white; 
     width: 100%; 
     border-width: 2px;
+}
+
+@media (max-width: 770px) { 
+    .hero { 
+        height: 500px;
+    }
+
+    .hero-content { 
+        width: 100%; 
+    }
 }
 
 /* FOOTER SECTION */
