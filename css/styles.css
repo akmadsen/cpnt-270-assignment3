@@ -75,14 +75,16 @@ header a {
 header ul li a:hover {
     background-color: rgb(185, 85, 51);
     color: white; 
-    
-    text-decoration: none; 
 
+    text-decoration: none;
 }
 
 .mobile-nav { 
+    background-color: #8F4228; 
+    color: white; 
+
     display: none; 
-    background-color: yellowgreen; 
+    
     border: none; 
     height: 80px; 
     width:  80px; 
