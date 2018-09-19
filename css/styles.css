@@ -139,14 +139,44 @@ header ul li a:hover {
 
 /* #endregion */
 
+/* #region MAIN */
+/* MAIN SECTION */
+main { 
+    height: 500px; 
+    display: flex; 
+    align-items: center; 
+}
+
+/* #endregion */
+
 /* #region FOOTER */
 /* FOOTER SECTION */
 footer { 
     background: blue; 
-    height: 400px;
+    min-height: 400px;
+}
+
+footer h2 { 
+    font-size: 0.9em; 
+    color: white; 
+}
+
+footer a { 
+    font-size: 0.8em; 
+    color: white; 
 }
 
 footer .container { 
     background: darkblue; 
+    padding-top: 1em; 
+}
+
+footer ul { 
+    padding: 0;
+}
+
+footer li { 
+    list-style: none;
+    margin-top: 8px;  
 }
 /* #endregion */
