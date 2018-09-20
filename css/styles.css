@@ -36,15 +36,17 @@
 header { 
     background: transparent; 
     height: 80px; 
-    color: #ddd; 
+
+    color: #ddd;
 }
 
-header div {
+header .container {
+    background: #8F4228; 
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-header .container { 
-    background: #8F4228; 
+header a { 
+    color: #ddd; 
 }
 
 header a:hover { 
@@ -58,11 +60,11 @@ header .logo {
 }
 
 header .logo i { 
-    margin-right: 10px; 
+    margin-right: 0.5em; 
 }
 
 header .logo span { 
-    font-size: 24px; 
+    font-size: 1.5em; 
     font-family: 'Alfa Slab One', serif; 
 }
 
@@ -76,9 +78,6 @@ header li {
 }
 
 header ul a { 
-    background-color: #8F4228;
-    color: #ddd; 
-
     font-family: 'Noto Sans', sans-serif; 
     font-weight: bold; 
     font-size: 20px; 
@@ -121,23 +120,23 @@ header ul a:hover {
 /* HERO SECTION */
 .hero { 
     min-height: 800px; 
+
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-
 }
 
 .hero .container { 
-    height: 100%;
     display: flex; 
     justify-content: center;
-    align-items: center;
 }
 
 .hero-content { 
     color: #ddd;
+    
     width: 75%;
     height: 75%;
+
     display: flex; 
     flex-direction: column;
     justify-content: center; 
@@ -146,23 +145,24 @@ header ul a:hover {
 
 .hero-content h1 { 
     margin: 0; 
-    text-align: center; 
+    
     font-family: 'Alfa Slab One', serif; 
     font-size: 3em; 
-}
-
-.hero-content p { 
-    text-align: center;
-    
-    font-family: 'Noto Sans', sans-serif; 
-    font-size: 1.4em;
-    margin-bottom: 1em; 
+    text-align: center; 
 }
 
 .hero-content hr { 
     border-color: #ddd; 
     width: 100%; 
     border-width: 4px;
+}
+
+.hero-content p { 
+    margin-bottom: 1em; 
+    
+    font-family: 'Noto Sans', sans-serif; 
+    font-size: 1.4em;
+    text-align: center;
 }
 
 .hero button { 
@@ -182,9 +182,11 @@ header ul a:hover {
     background-color: rgb(170, 74, 43); 
 }
 
+/* Fit Content for Hero at Different Sizes */
+/* Max-Width Found through Hand-Testing */
 @media (max-width: 770px) { 
     .hero { 
-        height: 700px;
+        min-height: 700px;
     }
 
     .hero-content { 
