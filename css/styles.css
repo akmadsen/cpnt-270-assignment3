@@ -1,16 +1,17 @@
 /* #region GENERAL */
-/* GENERAL STYLES */
+
+/* * * * * * * * * * * * * * * * * * *
+ GENERAL STYLES 
+ * * * * * * * * * * * * * * * * * * */
 
 /*
     COLOUR PALETTE 
     --------------
 
-    (Analogous Palette on color.adobe.com) 
-    Left        : 9C6524 (Burnt Yellow) 
-    Mid-Left    : A65926 (Burnter Yellow) 
-    Middle      : 8F4228 (Earthy Brown) <-- MAIN 
-    Mid-Right   : A63326 (Fall Orange) 
-    Right       : 9C2434 (Fall Red) 
+    (One-Colour, B&W Design) 
+    White   : #ddd 
+    Middle  : 8F4228 (Earthy Brown) <-- MAIN 
+    Black   : #222; 
 */ 
 
 .background-image { 
@@ -35,6 +36,7 @@
 header { 
     background: transparent; 
     height: 80px; 
+    color: #ddd; 
 }
 
 header div {
@@ -43,20 +45,16 @@ header div {
 
 header .container { 
     background: #8F4228; 
-    color: #ddd;
-}
-
-header a { 
-    color: #ddd; 
 }
 
 header a:hover { 
-    color: #ddd; 
     text-decoration: none; 
+    color: #ddd; 
 }
 
 header .logo { 
     margin-right: auto; 
+    color: #ddd; 
 }
 
 header .logo i { 
@@ -79,7 +77,7 @@ header li {
 
 header ul a { 
     background-color: #8F4228;
-    color: #ddd;  
+    color: #ddd; 
 
     font-family: 'Noto Sans', sans-serif; 
     font-weight: bold; 
@@ -93,8 +91,6 @@ header ul a {
 
 header ul a:hover {
     background-color: rgb(170, 74, 43);
-    color: #ddd; 
-
     text-decoration: none;
 }
 
@@ -206,6 +202,7 @@ main {
     min-height: 700px; 
     display: flex; 
     align-items: center; 
+    color: #222; 
 
     font-family: 'Noto Sans', sans-serif; 
 
@@ -222,7 +219,7 @@ main h2 {
 
 main hr { 
     border-width: 3px; 
-    border-color: black; 
+    border-color: #222; 
 }
 
 main p { 
