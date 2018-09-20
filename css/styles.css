@@ -33,7 +33,7 @@ header {
 
 header .container { 
     background: #8F4228; 
-    color: white;
+    color: #ddd;
 }
 
 header .logo { 
@@ -60,7 +60,7 @@ header li {
 
 header a { 
     background-color: #8F4228;
-    color: white;  
+    color: #ddd;  
 
     font-family: 'Noto Sans', sans-serif; 
     font-weight: bold; 
@@ -74,14 +74,14 @@ header a {
 
 header ul li a:hover {
     background-color: rgb(185, 85, 51);
-    color: white; 
+    color: #ddd; 
 
     text-decoration: none;
 }
 
 .mobile-nav { 
     background-color: #8F4228; 
-    color: white; 
+    color: #ddd; 
 
     display: none; 
     
@@ -119,7 +119,7 @@ header ul li a:hover {
 }
 
 .hero-content { 
-    color: white;
+    color: #ddd;
     width: 75%;
     height: 75%;
     display: flex; 
@@ -144,14 +144,14 @@ header ul li a:hover {
 }
 
 .hero-content hr { 
-    border-color: white; 
+    border-color: #ddd; 
     width: 100%; 
     border-width: 4px;
 }
 
 .hero button { 
     background-color: #8F4228;
-    color: white; 
+    color: #ddd; 
 
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700; 
@@ -210,23 +210,44 @@ main p {
 /* #region FOOTER */
 /* FOOTER SECTION */
 footer { 
-    background: blue; 
+    background: #8F4228; 
     min-height: 400px;
+
+    font-family: 'Noto Sans', sans-serif; 
+
+    display: flex; 
+    justify-content: stretch; 
 }
 
 footer h2 { 
+    color: #ddd; 
+
     font-size: 0.9em; 
-    color: white; 
+    font-weight: 700; 
+}
+
+footer hr {
+    border-color: #ddd; 
+    border-width: 2px; 
 }
 
 footer a { 
     font-size: 0.8em; 
-    color: white; 
+    color: #ddd; 
+}
+
+footer a:hover { 
+    color: #bbb; 
+    text-decoration: none; 
 }
 
 footer .container { 
-    background: darkblue; 
+    background-color: transparent; 
     padding-top: 1em; 
+}
+
+footer .row > div { 
+    margin-top: 20px; 
 }
 
 footer ul { 
