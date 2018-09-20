@@ -164,13 +164,15 @@ header ul li a:hover {
 
 @media (max-width: 770px) { 
     .hero { 
-        height: 500px;
+        height: 700px;
     }
 
     .hero-content { 
         width: 100%; 
     }
 }
+
+
 
 /* #endregion */
 
