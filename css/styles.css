@@ -36,6 +36,15 @@ header .container {
     color: #ddd;
 }
 
+header a { 
+    color: #ddd; 
+}
+
+header a:hover { 
+    color: #ddd; 
+    text-decoration: none; 
+}
+
 header .logo { 
     margin-right: auto; 
 }
@@ -58,7 +67,7 @@ header li {
     list-style: none; 
 }
 
-header a { 
+header ul a { 
     background-color: #8F4228;
     color: #ddd;  
 
@@ -72,7 +81,7 @@ header a {
     height: 80px;
 }
 
-header ul li a:hover {
+header ul a:hover {
     background-color: rgb(185, 85, 51);
     color: #ddd; 
 
