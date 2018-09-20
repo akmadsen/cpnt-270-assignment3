@@ -19,6 +19,7 @@
         url('../assets/christian-holzinger-996721-unsplash.jpg'); 
     background-size: cover; 
     background-position: center; 
+    background-attachment: fixed; 
 }
 
 /* #endregion */
@@ -29,6 +30,10 @@
 header { 
     background: transparent; 
     height: 80px; 
+}
+
+header div {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 header .container { 
@@ -114,10 +119,12 @@ header ul a:hover {
 /* #region HERO */
 /* HERO SECTION */
 .hero { 
-    min-height: 600px; 
+    min-height: 800px; 
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .hero .container { 
@@ -192,11 +199,14 @@ header ul a:hover {
 /* #region MAIN */
 /* MAIN SECTION */
 main { 
-    min-height: 500px; 
+    min-height: 700px; 
     display: flex; 
     align-items: center; 
 
     font-family: 'Noto Sans', sans-serif; 
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: relative; 
 }
 
 main h2 { 
@@ -223,7 +233,7 @@ main p {
 /* #region FOOTER */
 /* FOOTER SECTION */
 footer { 
-    background: #8F4228; 
+    background-color: #8F4228; 
     min-height: 400px;
 
     font-family: 'Noto Sans', sans-serif; 
@@ -261,6 +271,7 @@ footer .container {
 
 footer .row > div { 
     margin-top: 20px; 
+    max-width: 300px; 
 }
 
 footer ul { 
