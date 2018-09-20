@@ -143,10 +143,13 @@ header ul li a:hover {
     background-color: #8F4228;
     color: white; 
 
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700; 
+    font-size: 1.2em; 
+
     border-width: 0; 
     border-radius: 20px; 
     padding: 10px 20px; 
-    font-family: 'Noto Sans', sans-serif; 
 }
 
 @media (max-width: 770px) { 
