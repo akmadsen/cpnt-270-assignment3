@@ -13,7 +13,15 @@
     Black   : #222; 
 */ 
 
+button:focus { 
+    outline: none; 
+}
+
 /* #endregion */
+
+
+
+
 
 
 
@@ -110,6 +118,10 @@ header ul a:hover {
 
 
 
+
+
+
+
 /* #region HERO */
 /* * * * * * * * * * * * * * * * * * *
  HERO SECTION
@@ -147,6 +159,7 @@ header ul a:hover {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
+    align-items: center; 
     flex: 1; 
 }
 
@@ -206,6 +219,7 @@ header ul a:hover {
     background-color: rgb(170, 74, 43); 
 }
 
+
 .hero-animation-container { 
     transition: 0.1s; 
     transform: translate(0px, 3px);
@@ -227,6 +241,10 @@ header ul a:hover {
 }
 
 /* #endregion */
+
+
+
+
 
 
 
@@ -266,6 +284,10 @@ main p {
 }
 
 /* #endregion */
+
+
+
+
 
 
 
