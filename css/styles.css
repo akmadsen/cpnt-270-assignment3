@@ -185,10 +185,24 @@ header ul a:hover {
     border-width: 0; 
     border-radius: 20px; 
     padding: 10px 20px; 
+
+    box-shadow: 0px 20px 20px 8px rgba(27, 20, 17, 0.2),
+        0px 9px 20px 2px rgba(27, 20, 17, 0.41);
+
+    transition: 0.1s; 
 }
 
 .hero button:hover { 
     background-color: rgb(170, 74, 43); 
+}
+
+.hero-animation-container { 
+    transition: 0.1s; 
+    transform: translate(0px, 3px);
+}
+
+.hero-animation-container:hover { 
+    transform: translate(0px, 0px); 
 }
 
 /* Fit Content for Hero at Different Sizes */
@@ -251,7 +265,7 @@ main p {
  FOOTER SECTION 
  * * * * * * * * * * * * * * * * * * */
 footer { 
-    background-color: #8F4228;     
+    background-color: #768134;     
     color: #ddd; 
     
     min-height: 400px;
