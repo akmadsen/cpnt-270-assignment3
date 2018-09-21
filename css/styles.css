@@ -165,6 +165,11 @@ header ul a:hover {
 }
 
 .hero-content { 
+    display: flex; 
+    justify-content: center; 
+}
+
+.hero-call-to-action { 
     color: #ddd;
     
     width: 75%;
@@ -174,9 +179,11 @@ header ul a:hover {
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
+
+    margin-right: 80px;
 }
 
-.hero-content h1 { 
+.hero-call-to-action h1 { 
     margin: 0; 
     
     font-family: 'Alfa Slab One', serif; 
@@ -184,13 +191,13 @@ header ul a:hover {
     text-align: center; 
 }
 
-.hero-content hr { 
+.hero-call-to-action hr { 
     border-color: #ddd; 
     width: 100%; 
     border-width: 4px;
 }
 
-.hero-content p { 
+.hero-call-to-action p { 
     margin-bottom: 1em; 
     
     font-family: 'Noto Sans', sans-serif; 
@@ -228,6 +235,42 @@ header ul a:hover {
 
 .hero-animation-container:hover { 
     transform: translate(0px, 0px); 
+}
+
+table { 
+    background: #ddd; 
+    min-width: 225px; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+caption { 
+    color: #ddd;
+
+    font-family: 'Alfa Slab One', serif; 
+    font-size: 1.5em; 
+    padding: 0.1em 0; 
+    caption-side: top; 
+
+    text-align: center;
+}
+
+thead { 
+    background-color: #768134; 
+    color: #ddd; 
+}
+
+tr:nth-child(even) { 
+    background-color: rgb(173, 173, 173);
+}
+
+.crop { 
+    padding-left: 5px; 
+    text-align: left; 
+}
+
+.date { 
+    padding-right: 5px; 
+    text-align: right; 
 }
 
 /* Values Found through Hand Testing */
