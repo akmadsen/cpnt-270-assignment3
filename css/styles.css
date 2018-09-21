@@ -167,6 +167,7 @@ header ul a:hover {
 .hero-content { 
     display: flex; 
     justify-content: center; 
+    align-items: stretch; 
 }
 
 .hero-call-to-action { 
@@ -274,6 +275,21 @@ tr:nth-child(even) {
 }
 
 /* Values Found through Hand Testing */
+@media(max-width: 991px) { 
+    .hero-content { 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .hero-call-to-action { 
+        margin: 80px 0; 
+    }
+
+    table { 
+        margin-bottom: 80px; 
+    }
+}
+
 @media (max-width: 770px) { 
     .hero { 
         min-height: 700px;
@@ -283,6 +299,13 @@ tr:nth-child(even) {
         width: 100%; 
     }
 }
+
+@media (max-width: 500) { 
+    .hero-call-to-action { 
+        margin-top: 40px; 
+    }
+}
+
 
 /* #endregion */
 
@@ -301,6 +324,8 @@ main {
     display: flex; 
     align-items: center; 
     color: #222; 
+
+    padding: 40px;
 
     font-family: 'Noto Sans', sans-serif; 
 
@@ -325,6 +350,12 @@ main p {
     text-align: justify;
     
     margin-bottom: 30px; 
+}
+
+@media (max-width: 420px) {
+    main { 
+        padding: 40px 20px; 
+    }
 }
 
 /* #endregion */
